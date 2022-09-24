@@ -156,14 +156,14 @@
     padding-left: 10px;
     border-left: 5px solid var(--main-color);
 }
-
+ 
 .skills-box i {
     font-size: 45px;
     margin-bottom: 10px;
 }
 
 /* mobile */
-@media(max-width: 450px) {
+@media only screen and (max-device-width: 480px) {
 
     #container {
         flex-direction: column;
